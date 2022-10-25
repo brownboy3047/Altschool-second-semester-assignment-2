@@ -1,0 +1,37 @@
+.users .loading,
+.users .error {
+  font-size: 24px;
+  text-align: center;
+}
+
+.users h2 {
+  text-align: center;
+}
+
+.user-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.user-details {
+  width: 20rem;
+  height: 20rem;
+  padding: 14px;
+  background-color: #fff;
+  border-radius: 2rem;
+  border-color: transparent;
+  text-align: left;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.user-details img {
+  border-radius: 50%;
+}
+
+.user-details p {
+  margin: 5px 0;
+}

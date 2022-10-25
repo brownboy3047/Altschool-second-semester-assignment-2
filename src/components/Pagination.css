@@ -1,0 +1,36 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.pagination .prev {
+  background-color: #fff;
+  padding: 6px;
+  border: 0.5px solid #333;
+}
+
+.pagination .prev:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.pagination li {
+  background-color: #fff;
+  padding: 6px;
+  border: 0.5px solid #333;
+  list-style: none;
+}
+
+.pagination li:hover {
+  background-color: #333;
+}
+
+.pagination a {
+  color: rgb(13, 13, 120);
+  text-decoration: none;
+}
+
+.pagination li a:hover {
+  color: #fff;
+}
